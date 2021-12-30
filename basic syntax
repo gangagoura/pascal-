@@ -1,0 +1,33 @@
+You have seen a basic structure of pascal program, so it will be easy to understand other basic building blocks of the pascal programming language.
+
+Variables
+A variable definition is put in a block beginning with a var keyword, followed by definitions of the variables as follows:
+
+var
+A_Variable, B_Variable ... : Variable_Type;
+Pascal variables are declared outside the code-body of the function which means they are not declared within the begin and end pairs, but they are declared after the definition of the procedure/function and before the begin keyword. For global variables, they are defined after the program header.
+
+Functions/Procedures
+In Pascal, a procedure is set of instructions to be executed, with no return value and a function is a procedure with a return value. The definition of function/procedures will be as follows −
+
+Function Func_Name(params...) : Return_Value;
+Procedure Proc_Name(params...);
+Comments
+The multiline comments are enclosed within curly brackets and asterisks as (* ... *). Pascal allows single-line comment enclosed within curly brackets { ... }.
+
+(* This is a multi-line comments
+   and it will span multiple lines. *)
+
+{ This is a single line comment in pascal }
+Case Sensitivity
+Pascal is a case non-sensitive language, which means you can write your variables, functions and procedure in either case. Like variables A_Variable, a_variable and A_VARIABLE have same meaning in Pascal.
+
+Pascal Statements
+Pascal programs are made of statements. Each statement specifies a definite job of the program. These jobs could be declaration, assignment, reading data, writing data, taking logical decisions, transferring program flow control, etc.
+
+For example −
+
+readln (a, b, c);
+s := (a + b + c)/2.0;
+area := sqrt(s * (s - a)*(s-b)*(s-c));
+writeln(area);        
